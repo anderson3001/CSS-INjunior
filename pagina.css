@@ -95,6 +95,11 @@ ol{
     border-radius: 15%;
     opacity: 0px;
 }
+#hb1 img:hover{
+    width: 110px;
+    height: 160px;
+    transition:0.2s;
+}
 #hb2 img{
     width: 104px;
     height: 150px;
@@ -102,6 +107,11 @@ ol{
     gap: 10px;
     border-radius: 15%;
     opacity: 0px;
+}
+#hb2 img:hover{
+    width: 110px;
+    height: 160px;
+    transition:0.2s;
 }
 #hb3 img{
     width: 104px;
@@ -111,6 +121,11 @@ ol{
     border-radius: 15%;
     opacity: 0px;
 }
+#hb3 img:hover{
+    width: 110px;
+    height: 160px;
+    transition:0.2s;
+}
 #hb4 img{
     width: 104px;
     height: 150px;
@@ -118,6 +133,11 @@ ol{
     gap: 10px;
     border-radius: 15%;
     opacity: 0px;
+}
+#hb4 img:hover{
+    width: 110px;
+    height: 160px;
+    transition:0.2s;
 }
 #hb5 img{
     width: 104px;
@@ -127,8 +147,10 @@ ol{
     border-radius: 15%;
     opacity: 0px;
 }
-#hb1{
-    translate: 10px;
+#hb5 img:hover{
+    width: 110px;
+    height: 160px;
+    transition:0.2s;
 }
 #t1 img{
     width: 104px;
@@ -138,6 +160,11 @@ ol{
     border-radius: 15%;
     opacity: 0px;
 }
+#t1 img:hover{
+    width: 110px;
+    height: 160px;
+    transition:0.2s;
+}
 #t2 img{
     width: 104px;
     height: 150px;
@@ -145,6 +172,11 @@ ol{
     gap: 10px;
     border-radius: 15%;
     opacity: 0px;
+}
+#t2 img:hover{
+    width: 110px;
+    height: 160px;
+    transition:0.2s;
 }
 #t3 img{
     width: 104px;
@@ -154,6 +186,11 @@ ol{
     border-radius: 15%;
     opacity: 0px;
 }
+#t3 img:hover{
+    width: 110px;
+    height: 160px;
+    transition:0.2s;
+}
 #t4 img{
     width: 104px;
     height: 150px;
@@ -162,6 +199,11 @@ ol{
     border-radius: 15%;
     opacity: 0px;
 }
+#t4 img:hover{
+    width: 110px;
+    height: 160px;
+    transition:0.2s;
+}
 #t5  img{
     width: 104px;
     height: 150px;
@@ -169,6 +211,11 @@ ol{
     gap: 10px;
     border-radius: 15%;
     opacity: 0px;
+}
+#t5 img:hover{
+    width: 110px;
+    height: 160px;
+    transition:0.2s;
 }
 li {/*pra tirar os pontos da lista nao ordenada*/
     list-style-type: none;
@@ -264,3 +311,73 @@ footer{
     background-color: #b4b2b2;
 }
 
+/*RESPONSIVIDADE*/
+@media screen and (max-width: 430px) {
+    header{
+        width: 430px;
+    }
+    .sobre{
+        height: 584px;
+        width: 428px;
+        padding: 32px;
+        gap: 33px;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .sobre img{
+        margin-right: 40px;
+    }
+    .hobbies{
+        height: 695px;
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+    #hobbies{
+        height: 425px;
+        align-items: flex-start;
+        justify-content: flex-start;   
+        margin-bottom: 50px;    
+    }
+    #hobbies h2{
+        translate: 12px;
+    }
+    ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #top5{
+        height: 425px;
+        align-items: flex-start;
+        justify-content: flex-start;  
+        margin-bottom: 50px;
+    }
+    #top5 h2{
+        translate: 12px;
+    }
+    ol{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .feedbacks{
+        width: 384px;
+        margin-left: 0px;
+        height: 236px;
+    }
+    .feedbacks form input{
+        width: 373px;
+    }
+    .feedbacks form textarea{
+        width: 373px;
+    }
+    .feedbacks form button{
+        width: 100px;
+        translate: 0px;
+        padding-bottom: 20px;
+    }
+    footer{
+        width: 430px;
+        padding: 16px, 32px;
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+}
