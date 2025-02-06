@@ -407,7 +407,8 @@ footer{
     .feedbacks form button{
         width: 100px;
         translate: 0px;
-        padding-bottom: 20px;
+        padding: 20px;
+
     }
     footer{
         width: 430px;
